@@ -1,16 +1,29 @@
-.container{
+.container {
     min-height: 50rem;
 }
-h1{
+
+h1 {
     /* font-size: 2.5rem; */
     font-weight: 800;
     color: rgb(64, 29, 109);
 }
-h3{
+
+h3 {
     color: rgb(64, 29, 109);
 }
+
 /* maintainance */
-.jion{
-    background-color: rgb(64, 29, 109); 
+.jion {
+    background-color: rgb(64, 29, 109);
 }
+
 /* End of maintainance */
+
+/* Request */
+
+.container .card-link{
+    color:  rgb(64, 29, 109);
+    font-weight: 500;
+}
+
+/* End of Request */
