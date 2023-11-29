@@ -1,10 +1,13 @@
+.container{
+    min-height: 50rem;
+}
 h1{
     /* font-size: 2.5rem; */
     font-weight: 800;
     color: rgb(64, 29, 109);
 }
-.container{
-    min-height: 50rem;
+h3{
+    color: rgb(64, 29, 109);
 }
 /* maintainance */
 .jion{
