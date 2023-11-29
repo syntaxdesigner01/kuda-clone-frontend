@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is the clone of the kuda bank ui web app",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "tailwindcss -i ./tailwind/main.css -o ./Css/style.css -w"
   },
@@ -12,8 +13,5 @@
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
-  },
-  "dependencies": {
-    "react-icons": "^4.12.0"
   }
 }
