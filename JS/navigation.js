@@ -2,7 +2,7 @@
 // app header
 const appHeader = `
 <div
-  class="flex justify-between fixed px-8 py-4 text-primary font-semibold shadow-md bg-white w-full lg:px-16"
+  class="flex justify-between fixed px-8 py-4 text-primary font-semibold shadow-md bg-white w-full lg:px-16 z-50 "
 >
   <div class="flex gap-20">
     <div class="w-[70px] h-[20px]">

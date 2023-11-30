@@ -11,7 +11,7 @@
     <title>Document</title>
   </head>
 
-  <body class="scroll-m-10">
+  <body>
     <header></header>
 
     <div id="test">click</div>
@@ -27,11 +27,10 @@
 
     <footer>
       <div
-        id="appFooter"
-        class="shadow-sm relative bottom-0 py-20 px-24 w-full bg-white"
+        class="shadow-sm relative bottom-0 py-20 px-4 w-full bg-white lg:px-24"
       >
         <!-- first footer section container -->
-        <div class="flex justify-evenly w-full gap-10">
+        <div class="grid grid-cols-1 w-full gap-10 lg:flex lg:justify-evenly">
           <!-- footer logo -->
           <div class="w-[70px] h-[20px]">
             <svg width="99" height="22" viewBox="0 0 99 22" fill="none">
@@ -51,7 +50,7 @@
           </div>
 
           <!-- links -->
-          <div class="flex justify-between gap-10">
+          <div class="grid grid-cols-2 lg:flex justify-between gap-10">
             <div>
               <h1 class="font-semibold text-primary mb-4">Personal</h1>
               <ul class="gap-3 text-[#444444] text-sm flex flex-col">
@@ -83,36 +82,39 @@
                 <li>About Us</li>
               </ul>
             </div>
+
+
+            <div>
+              <h1 class="mb-4 font-semibold text-primary">Help</h1>
+              <ul class="gap-3 text-[#444444] text-sm flex flex-col">
+                <li>Get Help</li>
+                <li>Scam Awareness</li>
+                <li>FAQs</li>
+                <li>Security</li>
+                <li>Contact Us</li>
+                <li>Self Help</li>
+              </ul>
+            </div>
+
+            <div>
+              <h1 class="mb-4 font-semibold text-primary">Transparency</h1>
+              <ul class="gap-3 text-[#444444] text-sm flex flex-col">
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Information Security Policy</li>
+                <li>Cookie Policy</li>
+                <li>Whistleblowing Policy</li>
+              </ul>
+            </div>
+          </div>
           </div>
 
-          <div>
-            <h1 class="mb-4 font-semibold text-primary">Help</h1>
-            <ul class="gap-3 text-[#444444] text-sm flex flex-col">
-              <li>Get Help</li>
-              <li>Scam Awareness</li>
-              <li>FAQs</li>
-              <li>Security</li>
-              <li>Contact Us</li>
-              <li>Self Help</li>
-            </ul>
-          </div>
-
-          <div>
-            <h1 class="mb-4 font-semibold text-primary">Transparency</h1>
-            <ul class="gap-3 text-[#444444] text-sm flex flex-col">
-              <li>Terms & Conditions</li>
-              <li>Privacy Policy</li>
-              <li>Information Security Policy</li>
-              <li>Cookie Policy</li>
-              <li>Whistleblowing Policy</li>
-            </ul>
-          </div>
-        </div>
+          
         <!-- links end -->
 
         <!-- first footer section container end -->
 
-        <div class="flex gap-4 my-4">
+        <div class="flex gap-2 my-6 lg:gap-4 lg:my-4">
           <!-- google card -->
           <div>
             <svg width="135" height="40" viewBox="0 0 135 40" fill="none">
@@ -572,7 +574,7 @@
         </p>
 
         <!-- contact info section -->
-        <div class="flex justify-between mt-10">
+        <div class="grid grid-cols-1 gap-4 mt-10 lg:gap-0 lg:flex lg:justify-between ">
           <div class="text-primary gap-4 flex flex-col">
             <h1 class="font-bold">Contact</h1>
             <a href="" class="underline">help@kuda.com </a>
@@ -637,6 +639,31 @@
           </div>
         </div>
         <!-- contact info section end-->
+
+        <!-- terms of use section -->
+        <div class="flex flex-col gap-4 mt-16 text-[#979797] text-sm">
+          <div>
+            <p>*Kuda Customers get 25 free transfer to other banks every month. Extra transfers to other banks cost ₦10 each.</p>
+            <p>**Kuda account holders can deposit money in over 10,000 branches across Nigeria for free.</p>
+          </div>
+
+          <p>© 2023 Kuda Technologies Ltd (Company No.11472232). All rights reserved.</p>
+
+          <div>
+            <p>If you would like to find out more about which Kuda entity you receive services from, please reach out to us via the in-app chat in the Kuda app. Nigerian banking services offered by Kuda Microfinance Bank (RC796975) with registered address at 151 - Herbert Macaulay Way, Yaba, Lagos, Nigeria. Kuda Microfinance Bank is licensed by the Central Bank of Nigeria. Deposits are insured by the Nigerian Deposit Insurance Corporation (NDIC).</p>
+          </div>
+
+          <div>
+            <p>UK services are offered by Kuda EMI Ltd (Company No. 13724208) with registered address at 5 New Street Square, London, EC4A 3TW, United Kingdom. Kuda EMI Ltd is A Distributor of Modulr FS Limited. Modulr FS Limited (Company No 09897919), is regulated by the Financial Conduct Authority for issuance of electronic money under reference 900573.</p>
+          </div>
+        </div>
+        <!-- terms of use section end-->
+
+
+        <!-- ad section -->
+        <div class="bg-[#EFF1FF] ">
+
+        </div>
       </div>
     </footer>
 
