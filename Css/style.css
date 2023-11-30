@@ -643,6 +643,10 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.left-\[-8em\] {
+  left: -8em;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1934,6 +1938,11 @@ video {
      object-fit: scale-down;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1959,9 +1968,9 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.py-\[20\%\] {
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 .pb-28 {
@@ -2472,6 +2481,147 @@ video {
   padding: 0;
 }
 
+@keyframes rotateOrbit {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateOrbit2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.orbit {
+  width: 100px;
+  height: 100px;
+  /* background-color: #3498db; */
+  border: #979797 1px solid;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  animation: rotateOrbit 5s linear infinite;
+}
+
+.orbit2 {
+  animation: rotateOrbit2 5s linear infinite;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.orbit3 {
+  animation: rotateOrbit 5s linear infinite;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.orbit4 {
+  animation: rotateOrbit2 5s linear infinite;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.orbit5 {
+  animation: rotateOrbit2 5s linear infinite;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.satellite {
+  width: 20px;
+  height: 20px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 4.5em;
+  margin-left: -10px;
+}
+
+.satellite2 {
+  width: 20px;
+  height: 20px;
+  background-color: #b9e73c;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -50%;
+  margin-left: -10px;
+}
+
+.satellite3 {
+  width: 20px;
+  height: 20px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -4em;
+  margin-left: -10px;
+}
+
+.satellite4 {
+  width: 20px;
+  height: 20px;
+  background-color: #080302;
+  border-radius: 50%;
+  position: absolute;
+  top: 0rem;
+  left: 4.8em;
+  margin-left: -10px;
+}
+
+.satellite5 {
+  width: 20px;
+  height: 20px;
+  background-color: #5b3ce7;
+  border-radius: 50%;
+  position: absolute;
+  top: 5rem;
+  left: -59%;
+  margin-left: -10px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2575,11 +2725,6 @@ video {
     padding-right: 4rem;
   }
 
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -2597,4 +2742,3 @@ video {
     }
   }
 }
-
