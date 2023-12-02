@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is the clone of the kuda bank ui web app",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "tailwindcss -i ./tailwind/main.css -o ./Css/style.css -w"
   },
