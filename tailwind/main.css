@@ -31,65 +31,37 @@
 
 
 
-.orbit {
+/* .orbit3 {
+
+    animation: rotateOrbit 5s linear infinite;
     width: 100px;
     height: 100px;
-    /* background-color: #3498db; */
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+} */
+
+/* .orbit4 {
+
+    animation: rotateOrbit2 5s linear infinite;
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 50%;
     border: #979797 1px solid;
-    border-radius: 50%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    animation: rotateOrbit 5s linear infinite;
-}
-
-.orbit2 {
-
-    animation: rotateOrbit2 5s linear infinite;
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-}
-
-
-.orbit3 {
-
-    animation: rotateOrbit 5s linear infinite;
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-}
-
-.orbit4 {
-
-    animation: rotateOrbit2 5s linear infinite;
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
+    top: 20%;
+    left: -20em;
+    margin-top: -10em;
     margin-left: -50px;
     
-}
+} */
 
-.orbit5 {
+/* .orbit5 {
 
     animation: rotateOrbit2 5s linear infinite;
     width: 100px;
@@ -101,60 +73,57 @@
     left: 50%;
     margin-top: -50px;
     margin-left: -50px;
+} */
+
+
+
+.orbit {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -10em;
+    margin-top: -5em;
+    margin-left: -50px;
+    animation: rotateOrbit 5s linear infinite;
+    /* border: ; */
 }
+
+
+
 
 .satellite {
     width: 20px;
     height: 20px;
-    background-color: #e74c3c;
+    /* background-color: #e74c3c; */
     border-radius: 50%;
     position: absolute;
     top: 0;
     left: 4.5em;
     margin-left: -10px;
+   
 }
 
+
+.orbit2 {
+
+    animation: rotateOrbit2 5s linear infinite;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -10em;
+    margin-top: -5em;
+    margin-left: -50px;
+    border: 1px #979797 solid ;
+}
 
 .satellite2 {
     width: 20px;
     height: 20px;
-    background-color: #b9e73c;
     border-radius: 50%;
     position: absolute;
-    top: 0;
-    left: -50%;
-    margin-left: -10px;
-}
-
-.satellite3 {
-    width: 20px;
-    height: 20px;
-    background-color: #e74c3c;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: -4em;
-    margin-left: -10px;
-}
-
-.satellite4 {
-    width: 20px;
-    height: 20px;
-    background-color: #080302;
-    border-radius: 50%;
-    position: absolute;
-    top: 0rem;
-    left: 4.8em;
-    margin-left: -10px;
-}
-
-.satellite5 {
-    width: 20px;
-    height: 20px;
-    background-color: #5b3ce7;
-    border-radius: 50%;
-    position: absolute;
-    top: 5rem;
-    left: -59%;
-    margin-left: -10px;
+    left: -30px;
 }
