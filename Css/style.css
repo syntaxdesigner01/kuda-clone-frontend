@@ -832,18 +832,6 @@ video {
   width: 2rem;
 }
 
-.w-\[55\%\] {
-  width: 55%;
-}
-
-.w-\[65\%\] {
-  width: 65%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
-}
-
 .w-\[70px\] {
   width: 70px;
 }
@@ -854,18 +842,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
 }
 
 .flex-shrink {
@@ -1388,10 +1364,6 @@ video {
   justify-items: stretch;
 }
 
-.gap-0 {
-  gap: 0px;
-}
-
 .gap-10 {
   gap: 2.5rem;
 }
@@ -1414,10 +1386,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-40 {
-  gap: 10rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2111,9 +2079,9 @@ video {
   vertical-align: super;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-5xl {
@@ -2137,11 +2105,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -2597,6 +2560,10 @@ video {
   padding: 0;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* syntax designer styles */
+
 @keyframes rotateOrbit {
   0% {
     transform: rotate(0deg);
@@ -2616,50 +2583,6 @@ video {
     transform: rotate(-360deg);
   }
 }
-
-/* .orbit3 {
-
-    animation: rotateOrbit 5s linear infinite;
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-} */
-
-/* .orbit4 {
-
-    animation: rotateOrbit2 5s linear infinite;
-    width: 400px;
-    height: 400px;
-    background-color: transparent;
-    border-radius: 50%;
-    border: #979797 1px solid;
-    position: absolute;
-    top: 20%;
-    left: -20em;
-    margin-top: -10em;
-    margin-left: -50px;
-    
-} */
-
-/* .orbit5 {
-
-    animation: rotateOrbit2 5s linear infinite;
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    border-radius: 50%;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-} */
 
 .orbit {
   width: 200px;
@@ -2705,6 +2628,10 @@ video {
   position: absolute;
   left: -30px;
 }
+
+/* syntax designer styles end */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -2804,28 +2731,24 @@ video {
     width: 66.666667%;
   }
 
-  .lg\:w-\[80\%\] {
-    width: 80%;
-  }
-
-  .lg\:w-\[65\%\] {
-    width: 65%;
-  }
-
-  .lg\:w-full {
-    width: 100%;
-  }
-
-  .lg\:w-\[70\%\] {
-    width: 70%;
+  .lg\:w-\[40\%\] {
+    width: 40%;
   }
 
   .lg\:w-\[55\%\] {
     width: 55%;
   }
 
-  .lg\:w-\[40\%\] {
-    width: 40%;
+  .lg\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80%;
   }
 
   .lg\:grid-cols-3 {
@@ -2903,14 +2826,14 @@ video {
     text-align: left;
   }
 
-  .lg\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -2921,3 +2844,4 @@ video {
     }
   }
 }
+
