@@ -6,14 +6,46 @@
     font-size: 40px;
     line-height: 110%;
 }
+<<<<<<< HEAD
 .text-color{
     color: #40196d;
+=======
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* syntax designer styles */
+@keyframes rotateOrbit {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+>>>>>>> 9fc01c1afe6e44a977f6f6f83edaf40aa60a7333
 }
 .bg-color{
     background-color: #40196d;
 }
+<<<<<<< HEAD
 .color-p{
     color: #2f2f2f;
+=======
+
+
+
+
+.orbit {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -10em;
+    margin-top: -5em;
+    margin-left: -50px;
+    animation: rotateOrbit 5s linear infinite;
+    /* border: ; */
+>>>>>>> 9fc01c1afe6e44a977f6f6f83edaf40aa60a7333
 }
 .w-bonus{
     width: 65%;
@@ -24,9 +56,17 @@
 .text-t{
     font-size: 90%;
 }
+<<<<<<< HEAD
 .last-bg{
     background-color: #eff1ff;
 }
 .max-h-82{
     height: 340px;
 }
+=======
+
+/* syntax designer styles end */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+>>>>>>> 9fc01c1afe6e44a977f6f6f83edaf40aa60a7333
