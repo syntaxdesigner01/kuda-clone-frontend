@@ -1,3 +1,89 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* syntax designer styles */
+@keyframes rotateOrbit {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes rotateOrbit2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+
+.orbit {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -10em;
+    margin-top: -5em;
+    margin-left: -50px;
+    animation: rotateOrbit 5s linear infinite;
+    /* border: ; */
+}
+
+
+
+
+.satellite {
+    width: 20px;
+    height: 20px;
+    /* background-color: #e74c3c; */
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 4.5em;
+    margin-left: -10px;
+   
+}
+
+
+.orbit2 {
+
+    animation: rotateOrbit2 5s linear infinite;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -10em;
+    margin-top: -5em;
+    margin-left: -50px;
+    border: 1px #979797 solid ;
+}
+
+.satellite2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+}
+
+/* syntax designer styles end */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
