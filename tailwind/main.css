@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-size {
+    font-size: 40px;
+    line-height: 110%;
+}
+.text-color{
+    color: #40196d;
+}
+.bg-color{
+    background-color: #40196d;
+}
+.color-p{
+    color: #2f2f2f;
+}
+.w-bonus{
+    width: 65%;
+}
+.box-shadow{
+    box-shadow: 3px 2px 10px 7px rgba(64, 25, 109, .07);
+}
+.text-t{
+    font-size: 90%;
+}
