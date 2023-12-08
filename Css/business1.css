@@ -51,7 +51,7 @@ box-sizing: border-box;
  .account h2{
     text-decoration: white;
     color: white;
-    margin-top: 35px;
+    padding-top: 20px;
     font-size: 21px;
     font-weight: 500;
 }
@@ -65,4 +65,73 @@ box-sizing: border-box;
 }
 .image1 img{
 size: 100%;
+}
+.collab{
+    margin-left: 180px;
+    margin-top: -20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.collab .collab-text h1{
+    padding-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 1.7em;
+}
+.card1{
+    padding-left:25px;
+    
+}
+.card1 img{
+    size: 100%;
+    border-radius: 100%;
+    padding-right: 2px;
+}
+.cardtext1{
+    margin-top:0px;
+    margin-left:24px;
+}
+.cardtext1, h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+}
+ .cardtext2{
+    margin-top: 0px;
+    margin-left: 24px;
+}
+ .cardtext2 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+.kuda-business{
+    /* border: 2px solid black; */
+    min-height:300px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    margin-left: 150px;
+}
+.kuda-b-text{
+    /* border: 2px solid black; */
+    height: 175;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.kuda-b-text h1{
+    font-size: 33px;
+    font-weight: bold;
+}
+.kuda-business2{
+    /* border: 2px solid black; */
+    height: 145;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 120px; 
+}
+.kuda-business2 img{
+    size: 100%;
 }
