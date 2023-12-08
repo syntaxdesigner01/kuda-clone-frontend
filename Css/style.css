@@ -766,6 +766,10 @@ video {
   margin-right: 5rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -782,6 +786,14 @@ video {
   margin-top: 6rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-32 {
   margin-top: 8rem;
 }
@@ -796,6 +808,82 @@ video {
 
 .mt-\[10em\] {
   margin-top: 10em;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[-10\] {
+  margin-top: -10;
+}
+
+.-mt-4 {
+  margin-top: -1rem;
+}
+
+.-mt-5 {
+  margin-top: -1.25rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.mr-7 {
+  margin-right: 1.75rem;
+}
+
+.mr-9 {
+  margin-right: 2.25rem;
 }
 
 .box-border {
@@ -909,6 +997,22 @@ video {
   height: 20px;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.min-h-0 {
+  min-height: 0px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -935,6 +1039,22 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .flex-shrink {
@@ -1289,36 +1409,40 @@ video {
   grid-template-columns: 39% 39%;
 }
 
-.grid-cols-\[42\%\2c 35\%\] {
-  grid-template-columns: 42% 35%;
+.grid-cols-\[39\%\2c 45\%\] {
+  grid-template-columns: 39% 45%;
+}
+
+.grid-cols-\[45\%\2c 55\%\] {
+  grid-template-columns: 45% 55%;
 }
 
 .grid-cols-\[49\%\2c 52\%\] {
   grid-template-columns: 49% 52%;
 }
 
-.grid-cols-\[42\%\2c 39\%\] {
-  grid-template-columns: 42% 39%;
+.grid-cols-\[\] {
+  grid-template-columns: ;
 }
 
-.grid-cols-\[\%\2c 39\%\] {
-  grid-template-columns: % 39%;
+.grid-cols-\[48\] {
+  grid-template-columns: 48;
 }
 
-.grid-cols-\[39\%\2c \%\] {
-  grid-template-columns: 39% %;
+.grid-cols-\[48\%\] {
+  grid-template-columns: 48%;
 }
 
-.grid-cols-\[39\%\2c 42\%\] {
-  grid-template-columns: 39% 42%;
+.grid-cols-\[48\%\2c \] {
+  grid-template-columns: 48% ;
 }
 
-.grid-cols-\[39\%\2c 45\%\] {
-  grid-template-columns: 39% 45%;
+.grid-cols-\[48\%\2c 52\] {
+  grid-template-columns: 48% 52;
 }
 
-.grid-cols-\[39\%\2c 48\%\] {
-  grid-template-columns: 39% 48%;
+.grid-cols-\[48\%\2c 52\%\] {
+  grid-template-columns: 48% 52%;
 }
 
 .flex-row {
@@ -1977,6 +2101,11 @@ video {
   border-style: none;
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(64 25 109 / var(--tw-border-opacity));
@@ -2126,6 +2255,11 @@ video {
   padding: 0.5rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
@@ -2233,6 +2367,10 @@ video {
   padding-right: 2.5rem;
 }
 
+.pr-12 {
+  padding-right: 3rem;
+}
+
 .pr-14 {
   padding-right: 3.5rem;
 }
@@ -2291,6 +2429,18 @@ video {
 
 .pt-\[8em\] {
   padding-top: 8em;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .text-left {
@@ -2412,6 +2562,10 @@ video {
   font-weight: 600;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -2496,6 +2650,11 @@ video {
 .text-\[\#979797\] {
   --tw-text-opacity: 1;
   color: rgb(151 151 151 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
@@ -2905,7 +3064,7 @@ video {
 }
 
 .box-shadow{
-  box-shadow: 3px 2px 10px 7px rgba(64, 25, 109, .07);
+  box-shadow: 3px 2px 2px 3px rgba(64, 25, 109, .07);
 }
 
 .text-t{
@@ -2918,6 +3077,10 @@ video {
 
 .max-h-82{
   height: 340px;
+}
+
+.max-h-100{
+  height: 440px;
 }
 
 /* syntax designer styles end */
