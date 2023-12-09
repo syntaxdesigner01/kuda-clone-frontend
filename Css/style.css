@@ -639,6 +639,10 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[10px\] {
+  bottom: 10px;
+}
+
 .end-1 {
   inset-inline-end: 0.25rem;
 }
@@ -649,6 +653,54 @@ video {
 
 .top-20 {
   top: 5rem;
+}
+
+.bottom-\[-10px\] {
+  bottom: -10px;
+}
+
+.bottom-\[-2em\] {
+  bottom: -2em;
+}
+
+.bottom-\[-10em\] {
+  bottom: -10em;
+}
+
+.bottom-\[-6em\] {
+  bottom: -6em;
+}
+
+.bottom-\[-4em\] {
+  bottom: -4em;
+}
+
+.bottom-\[-8em\] {
+  bottom: -8em;
+}
+
+.bottom-\[-7\.5em\] {
+  bottom: -7.5em;
+}
+
+.bottom-\[-5\.6em\] {
+  bottom: -5.6em;
+}
+
+.bottom-\[-5em\] {
+  bottom: -5em;
+}
+
+.bottom-\[-3em\] {
+  bottom: -3em;
+}
+
+.bottom-\[-3\.5em\] {
+  bottom: -3.5em;
+}
+
+.bottom-\[-3\.9em\] {
+  bottom: -3.9em;
 }
 
 .isolate {
@@ -986,6 +1038,10 @@ video {
   height: 2rem;
 }
 
+.h-\[10vh\] {
+  height: 10vh;
+}
+
 .h-\[20px\] {
   height: 20px;
 }
@@ -1020,6 +1076,10 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .w-\[70px\] {
@@ -1411,7 +1471,7 @@ video {
 }
 
 .grid-cols-\[\%\2c 52\%\] {
-  grid-template-columns: % 52%;
+  grid-template-columns:  52%;
 }
 
 .grid-cols-\[60\%\2c 52\%\] {
@@ -1431,7 +1491,7 @@ video {
 }
 
 .grid-cols-\[70\%\2c \%\] {
-  grid-template-columns: 70% %;
+  grid-template-columns: 70% ;
 }
 
 .grid-cols-\[70\%\2c 7\%\] {
@@ -2578,6 +2638,10 @@ video {
   font-size: 10px;
 }
 
+.text-\[12px\] {
+  font-size: 12px;
+}
+
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -2595,6 +2659,21 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -2726,6 +2805,11 @@ video {
 .text-secondary {
   --tw-text-opacity: 1;
   color: rgb(151 151 151 / var(--tw-text-opacity));
+}
+
+.text-slate-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -2927,6 +3011,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -3079,6 +3169,20 @@ video {
 
 /* syntax designer styles */
 
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - 1rem));
+  }
+}
+
+.scroll {
+  animation: scroll 30s linear infinite;
+}
+
 @keyframes rotateOrbit {
   0% {
     transform: rotate(0deg);
@@ -3203,6 +3307,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:relative {
+    position: relative;
+  }
+
   .lg\:left-\[-8em\] {
     left: -8em;
   }
@@ -3216,6 +3324,10 @@ video {
     margin-bottom: 1rem;
   }
 
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3224,8 +3336,16 @@ video {
     display: flex;
   }
 
+  .lg\:grid {
+    display: grid;
+  }
+
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-\[50vh\] {
+    height: 50vh;
   }
 
   .lg\:w-1\/2 {
@@ -3234,6 +3354,10 @@ video {
 
   .lg\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .lg\:w-\[100px\] {
+    width: 100px;
   }
 
   .lg\:w-\[40\%\] {
@@ -3258,6 +3382,10 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -3331,14 +3459,18 @@ video {
     text-align: left;
   }
 
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 
-  .lg\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+  .lg\:text-\[10px\] {
+    font-size: 10px;
   }
 }
 
