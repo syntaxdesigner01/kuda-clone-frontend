@@ -10,6 +10,21 @@
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* syntax designer styles */
+
+@keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+  
+  .scroll {
+    animation: scroll 30s linear infinite;
+    
+  }
+
 @keyframes rotateOrbit {
     0% {
         transform: rotate(0deg);
