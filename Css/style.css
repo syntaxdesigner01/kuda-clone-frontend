@@ -2356,6 +2356,14 @@ video {
   padding-top: 0.25rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
+}
+
 .text-left {
   text-align: left;
 }
