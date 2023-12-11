@@ -895,6 +895,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2563,6 +2567,10 @@ video {
 
 .pl-40 {
   padding-left: 10rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .text-left {
