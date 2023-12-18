@@ -1,49 +1,27 @@
 *{
-box-sizing: border-box;
-}
-.hero-section{
-    /* border: 2px solid black; */
-    min-height: 300px;
-    margin-top: 35px;
-    display: flex;
-    max-width: auto;
-    display: flex;
-    flex-direction: row;
+    box-sizing: border-box;
 }
 .text{
-    /* border: 2px solid black; */
-    height: 700px;
-    width: 45%;
+    border: 2px solid black;
+    height: 105px;
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 85px;
     text-align: center;
-   margin-top: 25px;
-   margin-left: 70px;
+    font-size: 3.5em;
+    font-family: Times, serif;
+    font-weight:1000px;
 }
 .text h1{
-    margin-top: 20px;
-    font-size: 60px;
-    font-weight: 800;
+    margin-bottom: 30px;
+    
 }
-.text h3{
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 500;
-}
-.hero-section .text .ncc{
-    /* border: 2px solid black; */
-    height: 45px;
-    width: 70%;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-.hero-section .text .ncc img{
-    size: 100%;
-}
-.hero-section .text .account{
-    /* border: 2px solid black; */
-    height: 75px;
-    width: 60%;
-    margin-left: 50px;
-    margin-top: 50px;
+ .account{
+    border: 2px solid black;
+    height: 55px;
+    width: 25%;
+    margin-left: 450px;
+    margin-top: 30px;
     background-color: rgb(0,0,0);
     text-align: center;
     border-radius: 10px;
@@ -51,32 +29,30 @@ box-sizing: border-box;
  .account h2{
     text-decoration: white;
     color: white;
-    padding-top: 20px;
+    padding-top: 12px;
     font-size: 21px;
     font-weight: 500;
 }
+.registeration{
+/* border: 2px solid black; */
+width: 50%;
+height: 100px;
+margin-left: 350px;
+}
+.registeration h1{
+    font-size: 1.5em;
+    font-family: Times, serif;
+    font-weight:100px; 
+}
 .image1{
     /* border: 2px solid black; */
-    height: 700px;
-    width: 50%;
-    text-align: center;
-   margin-top: 25px;
-   margin-left: 50px;
+    height: 400px;
+    width: 75%;
+    margin-left: 140px;
+    margin-top: 40px;
 }
 .image1 img{
-size: 100%;
-}
-.collab{
-    margin-left: 180px;
-    margin-top: -20px;
-    text-align: center;
-    border-radius: 10px;
-}
-.collab .collab-text h1{
-    padding-top: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
-    font-size: 1.7em;
+    size: 100%;
 }
 .card1{
     padding-left:25px;
@@ -107,18 +83,18 @@ size: 100%;
 }
 .kuda-business{
     /* border: 2px solid black; */
-    min-height:300px;
+    min-height:400px;
     width: 80%;
     display: flex;
     flex-direction: row;
-    margin-top: 180px;
+    margin-top: 100px;
     margin-left: 150px;
 }
 .kuda-b-text{
     /* border: 2px solid black; */
-    height: 175;
-    width: 500px;
-    margin-top: -42px;
+    height: 155;
+    width: 650px;
+    margin-top: -62px;
     margin-left: 20px;
 }
 .kuda-b-text h1{
@@ -127,20 +103,20 @@ size: 100%;
 }
 .kuda-business2{
     /* border: 2px solid black; */
-    height: 145;
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 120px; 
+    height: 100%;
+    width: 48%;
+    margin-top: 5px;
+    margin-left: 80px; 
 }
 .kuda-business2 img{
     size: 100%;
 }
  .account2{
-    border: 2px solid black;
-    height: 75px;
+    /* border: 2px solid black; */
+    height: 65px;
     width: 55%;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 10px;
     background-color: rgb(0,0,0);
     text-align: center;
     border-radius: 10px;
@@ -152,17 +128,47 @@ size: 100%;
     font-size: 21px;
     font-weight: 500;
 }
-.account3{
-    border: 2px solid black;
+.side2{
+    /* border: 2px solid black; */
+    min-height:400px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.side2-text{
+    /* border: 2px solid black; */
+    height: 155;
+    width: 650px;
+    margin-top: -62px;
+    margin-left: 20px;
+}
+.side2-text h1{
+    font-size: 33px;
+    font-weight: bold;
+}
+.side2-A{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 48%;
+    margin-top: 5px;
+    margin-left: 80px; 
+}
+.kuda-business2 img{
+    size: 100%;
+}
+.account4{
+    /* border: 2px solid black; */
     height: 65px;
-    width: 68%;
+    width: 55%;
     margin-left: 50px;
-    margin-top: 35px;
+    margin-top: 25px;
     background-color: rgb(0,0,0);
     text-align: center;
     border-radius: 10px;
 }
-.account3 h2{
+.account4 h2{
     text-decoration: white;
     color: white;
     padding-top: 20px;
@@ -217,34 +223,10 @@ width: 100%;
 .homepage2 img{
     size: 100%;
 }
-.evidence-text{
-    /* border: 2px solid red; */
-    width: 60%;
-    height: 150px;
-    margin-top: 450px;
-    margin-left: 350px;
-    text-align: center;
-}
-.evidence-text h1{
-margin-top: 30px;
-font-size: 2.4em;
-}
-.testimonies{
-    border: 2px solid red;
-    width: 100%;
-    height: 450px;
-    margin-bottom: 40px;
-    margin-left: 0px;
-    text-align: center;
-}
-.pos{
-    /* border: 2px solid red; */
-    width: 70%;
-    height: 470px;
-    margin-bottom: 40px;
-    margin-left: 200px;
-    border-radius: 25px;
-}
-.pos img{
-    size: 100%;
+.faqs{
+    border: 2px solid black;
+    min-height: 400px;
+    width: 80%;
+    margin-top: 345px;
+    margin-left: 45pxb ;
 }
