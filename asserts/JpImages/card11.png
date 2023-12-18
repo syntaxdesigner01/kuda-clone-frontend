@@ -1,0 +1,26 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="20" fill="#DCFFEC"/>
+<ellipse cx="20.177" cy="20.1731" rx="9.82302" ry="9.82352" fill="#48D38A"/>
+<mask id="mask0_2656_26236" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="10" width="20" height="20">
+<ellipse cx="19.829" cy="19.8295" rx="9.82897" ry="9.82947" fill="#48D38A"/>
+</mask>
+<g mask="url(#mask0_2656_26236)">
+<path d="M20.0188 15.2617L23.5931 19.3892L16.4445 19.3892L20.0188 15.2617Z" fill="black"/>
+<rect x="21.2915" y="20.0801" width="2.56807" height="0.958711" transform="rotate(-180 21.2915 20.0801)" fill="black"/>
+<rect x="21.311" y="19.7461" width="2.52003" height="0.264107" transform="rotate(-180 21.311 19.7461)" fill="black"/>
+<rect x="21.311" y="19.957" width="2.51999" height="0.118848" transform="rotate(-180 21.311 19.957)" fill="black"/>
+<rect x="21.311" y="20.1953" width="2.51999" height="0.118848" transform="rotate(-180 21.311 20.1953)" fill="black"/>
+<rect x="21.2915" y="21.6836" width="2.56807" height="1.81317" transform="rotate(-180 21.2915 21.6836)" fill="black"/>
+<rect x="21.311" y="21.0547" width="2.52003" height="0.499492" transform="rotate(-180 21.311 21.0547)" fill="black"/>
+<rect x="21.311" y="21.4551" width="2.51999" height="0.224771" transform="rotate(-180 21.311 21.4551)" fill="black"/>
+<rect x="21.311" y="21.9043" width="2.51999" height="0.224771" transform="rotate(-180 21.311 21.9043)" fill="black"/>
+<rect x="21.2915" y="23.3359" width="2.55783" height="0.920286" transform="rotate(-180 21.2915 23.3359)" fill="black"/>
+<rect x="21.311" y="23.0156" width="2.50998" height="0.253522" transform="rotate(-180 21.311 23.0156)" fill="black"/>
+<rect x="21.311" y="23.2188" width="2.50994" height="0.114084" transform="rotate(-180 21.311 23.2188)" fill="black"/>
+<rect x="21.311" y="23.4473" width="2.50994" height="0.114085" transform="rotate(-180 21.311 23.4473)" fill="black"/>
+<rect x="21.2573" y="25.0703" width="2.55783" height="0.920286" transform="rotate(-180 21.2573 25.0703)" fill="black"/>
+<rect x="21.2769" y="24.75" width="2.50998" height="0.253521" transform="rotate(-180 21.2769 24.75)" fill="black"/>
+<rect x="21.2769" y="24.9531" width="2.50994" height="0.114085" transform="rotate(-180 21.2769 24.9531)" fill="black"/>
+<rect x="21.2769" y="25.1816" width="2.50994" height="0.114084" transform="rotate(-180 21.2769 25.1816)" fill="black"/>
+</g>
+</svg>
